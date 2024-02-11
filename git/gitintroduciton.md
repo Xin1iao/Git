@@ -40,9 +40,9 @@ Let's get started!
    ```
 
    The result is 
-
-   ![Screenshot 2024-02-11 at 12.54.48 AM](assets/Screenshot 2024-02-11 at 12.54.48 AM.png)
-
+   
+   <img src="assets/Screenshot 2024-02-11 at 12.54.48 AM.png" alt="Screenshot 2024-02-11 at 12.54.48 AM" style="zoom:100%;" />
+   
 2. **git clone [url]**: Used to copy a Git repository from an existing URL. It's a way to download and work on a project that's been shared via a Git repository (Take `https://github.com/piglei/zkpython_example` for an example).
 
    ```bash
@@ -103,8 +103,8 @@ Let's get started!
     1 file changed, 0 insertions(+), 0 deletions(-)
     create mode 100644 example.py
    ```
-
-   ![Screenshot 2024-02-10 at 11.10.00 PM](assets/Screenshot 2024-02-10 at 11.10.00 PM.png)
+   
+   <img src="assets/Screenshot 2024-02-10 at 11.10.00 PM.png" alt="Screenshot 2024-02-10 at 11.10.00 PM" style="zoom:100%;" />
 
 6. **git branch [branch-name]**: Creates a new branch. Branches are used to develop features isolated from each other.
 
@@ -132,8 +132,8 @@ Let's get started!
    git checkout new-feature
    Switched to branch 'new-feature'
    ```
-
-   ![Screenshot 2024-02-10 at 11.10.27 PM](assets/Screenshot 2024-02-10 at 11.10.27 PM.png)
+   
+   <img src="assets/Screenshot 2024-02-10 at 11.10.27 PM.png" alt="Screenshot 2024-02-10 at 11.10.27 PM" style="zoom:100%;" />
 
 8. **git merge [branch]**: Merges the specified branch’s history into the current branch. This is usually done in the main branch to bring in new features or fixes.
 
@@ -148,8 +148,8 @@ Let's get started!
    Already up to date.
    ```
 
-   ![Screenshot 2024-02-11 at 1.49.03 AM](assets/Screenshot 2024-02-11 at 1.49.03 AM.png)
-
+   <img src="assets/Screenshot 2024-02-11 at 1.49.03 AM.png" alt="Screenshot 2024-02-11 at 1.49.03 AM" style="zoom:100%;" />
+   
 9. **git rebase [branch]**: Reapply commits on top of another base tip. It's used to integrate changes from one branch into another.
 
    ```bash
@@ -163,7 +163,7 @@ Let's get started!
    Current branch new-feature is up to date.
    ```
 
-   ![Screenshot 2024-02-11 at 1.51.41 AM](assets/Screenshot 2024-02-11 at 1.51.41 AM.png)
+   <img src="assets/Screenshot 2024-02-11 at 1.51.41 AM.png" alt="Screenshot 2024-02-11 at 1.51.41 AM" style="zoom:100%;" />
 
 10. **git stash**: Temporarily shelves or stashes changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on.
 
@@ -178,7 +178,7 @@ Let's get started!
     No local changes to save
     ```
 
-    ![Screenshot 2024-02-11 at 1.54.09 AM](assets/Screenshot 2024-02-11 at 1.54.09 AM.png)
+   <img src="assets/Screenshot 2024-02-11 at 1.54.09 AM.png" alt="Screenshot 2024-02-11 at 1.54.09 AM" style="zoom:100%;" />
 
 11. **git stash pop**: Reapplies the changes that were stashed away by `git stash`.
 
@@ -186,7 +186,7 @@ Let's get started!
     git stash pop
     ```
 
-    ![Screenshot 2024-02-10 at 11.14.03 PM](assets/Screenshot 2024-02-10 at 11.14.03 PM.png)
+    <img src="assets/Screenshot 2024-02-10 at 11.14.03 PM.png" alt="Screenshot 2024-02-10 at 11.14.03 PM" style="zoom:100%;" />
 
 12. **git log**: Shows the commit logs.
 
@@ -194,7 +194,7 @@ Let's get started!
     git log
     ```
 
-    ![Screenshot 2024-02-10 at 11.14.40 PM](assets/Screenshot 2024-02-10 at 11.14.40 PM.png)
+    <img src="assets/Screenshot 2024-02-10 at 11.14.40 PM.png" alt="Screenshot 2024-02-10 at 11.14.40 PM" style="zoom:100%;" />
 
 13. **git pull**: Fetches and merges changes on the remote server to your working directory.
 
